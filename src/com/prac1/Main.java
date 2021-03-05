@@ -3,7 +3,6 @@ package com.prac1;
 public class Main {
 
     public static void main(String[] args) {
-
     }
 
     public static int convert(int minutes) {
@@ -43,6 +42,6 @@ public class Main {
     }
 
     public static int mod(int n1, int n2){
-        return n1 - ((n1 / n2) * n2);
+        return Math.abs(n1 - ((n1 / n2) * n2));
     }
 }
